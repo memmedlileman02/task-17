@@ -20,22 +20,11 @@
 //     price: 1500,
 //   },
 // ];
-// console.log(products);
-// let search = prompt("Search: ").toLowerCase(); //Ip = ip
-// let bosArray = [];
-// let productFilter;
-// // products.map((product)=> console.log(product.name))
-// if (search === "baha") {
-//   productFilter = products.filter((product) => product.price > 1000);
-// } else if (search === "ucuz") {
-//   productFilter = products.filter((product) => product.price < 1000);
-// } else {
-//   productFilter = products.filter((product) => {
-//     product.name.toLowerCase().includes(search);
-//   });
-// }
 // let productFilter = products.sort((a,b) => a.price-b.price);
-// console.log(productFilter);
+// productFilter.forEach(product => {
+//     console.log(` ${product.name},  ${product.price}`);
+//   });
+
 
 
 
